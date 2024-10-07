@@ -1,0 +1,26 @@
+form {
+  color: black;
+  font-size: 25px;
+  background-image: -moz-repeating-linear-gradient(75deg, white,grey);
+  text-align: start;
+  height: auto;
+}
+input {
+  background-color:aliceblue;
+  overflow: hidden;
+  text-align: justify;
+  font-size: 18px;
+  display: table;
+
+}
+p {
+  display: table-row;
+
+}
+  label {
+ display: table-cell;
+  }
+
+body {
+  background-color: grey;
+}

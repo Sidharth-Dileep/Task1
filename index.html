@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Employee Details</title>
+  </head>
+  <body>
+    <form onsubmit="getFormValue(event)" action="/acion_page.php">
+      <fieldset>
+        <legend>Form for Club</legend>
+        <p>
+          <label for="fname">First Name:</label>
+          <input id="fname" type="text">
+        </p>
+        <p>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname">
+        </p>
+        <p>
+            <label for="Male">Male</label>
+          <input type="radio" value="Male" id="m" name="Gender"> 
+          <label for="Female">Female</label>
+          <input type="radio" value="Female" id="f" name="Gender" />
+        </p>
+        <p>
+          <label for="Sem">Semester:</label>
+          <input type="text" id="Sem">
+        </p>
+        <p>
+          <label for="Branch">Branch:</label>
+          <input type="text" id="branch">
+        </p>
+        <p>
+          <label for="ID">Admission ID:</label>
+          <input type="text" id="ID">
+        </p>
+        <p>
+           <label for="phno">Phone Number:</label>
+           <input type="number" value="phno" id="phno">
+           <p>
+          <label for="age">Age:</label>
+          <input type="date" value="age" id="age">
+        </p>
+        </p>
+        <p>
+        <label for="Club">Interested Club:</label><br>
+        <label for="C.a">Club A</label>
+        <input type="radio" value="C.a" id="c.a" name="club">
+        <label for="C.b">Club B</label>
+        <input type="radio" value="C.b" id="c.b" name="club">
+        <label for="C.c">Club C</label>
+        <input type="radio" value="C.c" id="c.c" name="club">
+        </p>
+        <p>
+          <input type="submit" name="submit" value="Submit" id="submit">
+          <input type="reset" name="reset" value="Reset" id="Reset">
+        </p>
+        <link href="styles.css" rel="stylesheet" />
+        <script src="script.js"></script>
+      </fieldset>
+    </form>
+  </body>
+</html>
